@@ -4,7 +4,9 @@ import androidx.compose.runtime.State
 import androidx.compose.runtime.mutableStateOf
 import androidx.lifecycle.SavedStateHandle
 import androidx.lifecycle.ViewModel
+import androidx.lifecycle.viewModelScope
 import dagger.hilt.android.lifecycle.HiltViewModel
+import kotlinx.coroutines.flow.launchIn
 import kotlinx.coroutines.flow.onEach
 import xyz.teamgravity.cryptocurrencyencyclopedia.common.Const
 import xyz.teamgravity.cryptocurrencyencyclopedia.common.Resource
@@ -41,6 +43,6 @@ class CoinDetailViewModel @Inject constructor(
                     _state.value = CoinDetailState(isLoading = true)
                 }
             }
-        }
+        }.launchIn(viewModelScope)
     }
 }
