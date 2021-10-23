@@ -87,9 +87,11 @@ fun CoinDetailScreen(
                     Spacer(modifier = Modifier.height(15.dp))
                 }
 
-                items(coin.team) { member ->
-                    TeamListCard(teamMember = member)
-                    Divider()
+                if (coin.team != null) {
+                    items(coin.team) { member ->
+                        TeamListCard(teamMember = member)
+                        Divider()
+                    }
                 }
             }
         }
