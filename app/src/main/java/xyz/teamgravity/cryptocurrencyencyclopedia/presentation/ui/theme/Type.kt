@@ -1,4 +1,4 @@
-package xyz.teamgravity.cryptocurrencyencyclopedia.ui.theme
+package xyz.teamgravity.cryptocurrencyencyclopedia.presentation.ui.theme
 
 import androidx.compose.material.Typography
 import androidx.compose.ui.text.TextStyle
