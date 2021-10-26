@@ -11,7 +11,7 @@ Light app that gives general information about all crytocurrencies out there. <a
 
 <img src="https://github.com/raheemadamboev/cryptocurrency-encyclopedia/blob/master/Cryptocurrency%20Encyclopedia.jpg" alt="Italian Trulli" width="869" height="416">
 
-**Key points:**
+**Tech stack:**
 
 - Clean Architecture
 - MVVM
