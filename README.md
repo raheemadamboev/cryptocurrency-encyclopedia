@@ -1,5 +1,5 @@
 # cryptocurrency-encyclopedia
-Android application that gives general info about cryptocurrencies gets from API built by Jetpack Compose, Dependency Injection, Clean Architecture...
+Android application that gives general info about cryptocurrencies gets from API built by Jetpack Compose, Dependency Injection, Clean Architecture... 
 
 **Cryptocurrency Encyclopedia**
 
